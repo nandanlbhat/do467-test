@@ -1,6 +1,7 @@
 ---
 - name: say hello
   hosts: prod_servers
+  #gather_facts: false
   tasks:
     - name: say hello
       debug:

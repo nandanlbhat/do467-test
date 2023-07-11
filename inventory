@@ -1,0 +1,7 @@
+[dev_servers]
+servera.lab.example.com
+serverb.lab.example.com
+
+[prod_servers]
+servere.lab.example.com
+serverf.lab.example.com

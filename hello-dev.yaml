@@ -1,8 +1,9 @@
 ---
 - name: say hello
   hosts: dev_servers
+  gather_facts: false
   tasks:
     - name: say hello
       debug:
-        msg:  hello world
+        msg:  "{{ ansible_facts['default_ipv4']['address'] }}"
 ...
