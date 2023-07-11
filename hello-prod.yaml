@@ -1,0 +1,8 @@
+---
+- name: say hello
+  hosts: prod_servers
+  tasks:
+    - name: say hello
+      debug:
+        msg:  hello world
+...
