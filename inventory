@@ -5,3 +5,8 @@ serverb.lab.example.com
 [prod_servers]
 servere.lab.example.com
 serverf.lab.example.com
+
+[other_servers]
+serverc.lab.example.com
+serverd.lab.example.com
+
