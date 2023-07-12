@@ -1,0 +1,9 @@
+---
+- name: ensure license key is in correct location
+  hosts: all
+  tasks:
+    - name: copy license key 
+      copy:
+        dest: /tmp/license.key
+        content: "{{ license_key }}"
+...
